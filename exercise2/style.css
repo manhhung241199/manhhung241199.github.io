@@ -1,0 +1,18 @@
+.class_one{
+    margin: 3px;
+    color: black;
+    font-weight: bold;
+}
+.class_two{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #398C75;
+    border: 3px solid grey;
+}
+.class_three{
+    color: black;
+}
+.background{
+    background: burlywood;
+}

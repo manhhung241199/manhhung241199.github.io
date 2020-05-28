@@ -1,0 +1,240 @@
+.class-one{
+    float: left;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    }
+.class-two{
+    margin-top: 98px;
+    background-color: #f5f5f5;
+    float: left;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    }
+
+.class-three{
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+.class-four{
+    float: left;
+    background-color: #111111;
+    border-bottom: 1px solid rgb(170, 169, 169);
+    height: 260px;
+    width: 100%;
+    }
+.class-five{
+  float: left;
+  background-color: #111111;
+  border-bottom: 1px solid rgb(170, 169, 169);
+  height: 50px;
+  width: 100%;
+  }
+.class-six{
+  float: left;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+  height: 30px;
+  width: 100%;
+  }
+.fist-pic, .second-pic{
+    width: 165px;
+    height: 165px;
+}
+
+.second-pic{
+    position: absolute;
+    opacity: 0;
+}
+
+.second-pic:hover{
+    transition: 0.7s ease-in-out;
+    opacity: 1;
+}
+.nav-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.content{
+  position: relative;
+  width: 500px;
+  height: auto;
+}
+
+.header{
+  top: 0;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.child-list > span{
+  color: #ffffff;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.child-list-second > span{
+  color: #ffffff;
+  margin-left: 100px;
+  cursor: pointer;
+}
+.sub-header{
+  position: relative;
+
+}
+
+.list-product{
+  width: 100px;
+  text-align: center;
+  background: brown;
+
+  position: absolute;
+  left: 270px;
+  top: 20px;
+  display: none;
+}
+
+.list-product-second{
+  width: 100px;
+  text-align: center;
+  background: brown;
+
+  position: absolute;
+  right: 161px;
+  top: 20px;
+  display: none;
+}
+.child-list:hover .list-product{
+  display: block;
+}
+
+.child-list-second:hover .list-product-second{
+  display: block;
+}
+.outer-1{
+    margin-right: 50px;
+}
+.search{
+    float: right;
+    margin-top: 15px;
+    font-size: 14px;
+}
+input[type="text"]:focus{
+    width:250px; 
+}
+input[type="text"] {
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 14px;
+    transition:0.6s ease-in-out;
+  }
+
+.container {
+    position: relative;
+    width: 100%;
+  }
+
+.image {
+    display: block;
+    width: 100%;
+  }
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+
+.container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+.button{
+      border-radius: 50px;
+      width: 120px;
+      height: 40px;
+      background-color: black;
+      color: white;
+      margin-left: 610px;
+      font-size: 16px;
+    }
+.img-02{
+    width: 300px;
+    height: auto;
+}
+
+.button-01{
+      border-radius: 50px;
+      border-color: white;
+      width: 100px;
+      height: 40px;
+      background-color: rgb(255, 255, 255);
+      color: rgb(0, 0, 0);
+      margin-bottom: 50px;
+      font-size: 16px;
+      position: absolute;
+    }
+    .button-03{
+      border-radius: 50px;
+      border-color: rgb(255, 255, 255);
+      width: 100px;
+      height: 40px;
+      background-color: rgb(0, 0, 0);
+      color: rgb(255, 255, 255);
+      margin-bottom: 50px;
+      font-size: 16px;
+      position: absolute;
+    }
+
+.text{
+  font-size: 12px; 
+  font-family: Arial; 
+  color: rgb(255, 255, 255);
+  }
+.img-03{
+  width: 25px;
+  height: 25px;
+  float: right;
+}
+.text-02{
+  font-size: 12px;
+  font-family: Arial;
+  color: rgb(218, 216, 216);
+}
+.text-03{
+  font-size: 12px;
+  font-family: Arial;
+  color: rgb(148, 146, 146);
+}
+.text-04{
+  font-size: 13px;
+  color: rgb(0, 0, 0);
+}
+.text-05{
+  font-size: 12px;
+  color: rgb(184, 180, 180);
+}
+.button-02{
+  border-radius: 50px;
+  border-color: white;
+  width: 100px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+

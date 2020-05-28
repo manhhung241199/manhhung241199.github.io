@@ -1,0 +1,85 @@
+.outer-img{
+    height: 200px;
+    width: 200px;
+}
+
+.div-outer-img:hover{
+    border: solid 5px white ;
+}
+
+.div-outer-img1::after{
+    content: "Durian";
+    color: red;
+    font-variant: small-caps;
+    font-size: 70px;
+}
+.div-outer-img2::after{
+    content: "Pear";
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+}
+.div-outer-img3::after{
+    content: "Chery";
+    color: red;
+    font-size: 30px;
+    font-variant: italic;
+}
+.div-outer-img4::after{
+    content: "Apple";
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+}
+.div-outer-img5::after{
+    content: "Grape";
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+}
+.div-outer-img6::after{
+    content: "Green apple";
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+}
+.div-outer-img7::after{
+    content: "Strawberry";
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+}
+.div-outer-img8::after{
+    content: "Peach";
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+}
+.div-outer-img9::after{
+    content: "Pomegranate";
+    color: red;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.div-outer-img{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+.class_one{
+    float: right;
+}
+.outer-layout{
+    margin-left: 40px;
+    margin-right: 40px;
+    }
+.table1{
+    border: 3px solid orange;
+}
+.table2{
+    border: 10px solid white;
+}
